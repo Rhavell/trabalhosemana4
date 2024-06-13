@@ -1,0 +1,8 @@
+:host {
+    display: block;
+    height: 100vh; /* Define a altura para ocupar a tela inteira */
+    background-image: url('/assets/background.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+  }

@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { SobreMimComponent } from './sobre-mim/sobre-mim.component';
+import { ProjetosComponent } from './projetos/projetos.component';
+import { ContatoComponent } from './contato/contato.component';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  standalone: true,
+  imports: [SobreMimComponent, ProjetosComponent, ContatoComponent]
 })
 export class AppComponent {
-  title = 'meu-projeto-angular';
+  title = 'meu-portfolio';
 }

@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('/assets/background.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+  }
